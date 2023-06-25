@@ -25,7 +25,8 @@ export default {
     success: '操作成功',
     failed: '操作失败',
     verify: '验证',
-    unauthorizedTips: '未经授权，请先进行验证。您可以访问 poe.com 或者 play.vercel.ai(限制字数) 来临时使用gpt4或者其他api服务',
+    unauthorizedTips: '未经授权，请先进行验证。',
+		stopResponding: '停止响应',
   },
   chat: {
     newChatButton: '新建聊天',
