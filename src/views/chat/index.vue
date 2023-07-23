@@ -481,7 +481,7 @@ onUnmounted(() => {
           <template v-if="!dataSources.length">
             <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
-              <span>Aha~</span>
+              <span>Aha~<br>我随时清除历史聊天,清除后聊天记录还在本地(除非清除cookie),但bot不会记住你的上下文<br>如有需要，<a href='https://qsim.top/#contact'>联系</a>我</span>
             </div>
           </template>
           <template v-else>
